@@ -1,1 +1,3 @@
 1) Sublist3r -------Github Tool to get all the Sub-domain for a website by using multiple seacrh engine
+
+2) https://www.exploit-db.com/  -------------------- Search for all the Payloads, Vulnerability, and CVE (Common vulnerability and Exposures)
