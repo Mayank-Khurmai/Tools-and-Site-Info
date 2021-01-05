@@ -1,3 +1,25 @@
-1) Sublist3r -------Github Tool to get all the Sub-domain for a website by using multiple seacrh engine
+1) https://www.whois.com---------------Get Information of Website
 
-2) https://www.exploit-db.com/  -------------------- Search for all the Payloads, Vulnerability, and CVE (Common vulnerability and Exposures)
+2) https://www.google.com/advanced_search-------------------- Google Search By Google Dorks
+
+3) https://www.google.com/advanced_image_search--------------- Google Search by Image Description
+
+4) https://www.google.com/imghp---------------------Google Search by Image Upload
+
+5) https://www.exploit-db.com----------------------- Search for all the Payloads, Vulnerability, and CVE (Common vulnerability and Exposures)
+
+6) https://www.startpage.com-----------------------Meta Search Engine which use multile search engine to show more accurate results
+
+7) https://www.searchftps.net-------------------NAPALM FTP , it is used to search FTP files directly with their names in more then 3,000 ftp servers
+
+8) https://filezilla-project.org----------------Filezilla software is used to make a ftp connnection with your web server directly without using browser
+
+9) https://www.shodan.io----------------------Search Engine used to Crawl mainly IoT devices with their IP address
+
+10) https://www.netcraft.com---------------------Website used to get website report
+
+11) Sublist3r ------------Github Command line Tool for Linux and Windows to get all the Sub-domain for a website by using multiple seacrh engine
+
+12) https://pentest-tools.com-------------Website to check Sub-domains , webiste info and scan vulnerabilty present on any website
+
+13) 
