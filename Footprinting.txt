@@ -29,3 +29,6 @@
 15) sherlock-project-------------Github Command Line tool to search the username in multiple websites
 
 16) Burpsuite------------Linux GUI tool used for penetration testing and vulnerability finder and used to intercept all requests and responses
+
+17) wappalyzer-----------Website and Browser extension used to identify all the Technologies used in the website
+
