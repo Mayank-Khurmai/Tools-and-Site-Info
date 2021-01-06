@@ -55,3 +55,5 @@
 28) Email Tracker Pro---------Window Software to track emails geo-location , IP address and email headers
 
 29) https://whois.domaintools.com--------Website to get the official details of any website
+
+30) SmartWhois----------Paid Window Software for website official information gathering
