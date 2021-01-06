@@ -37,3 +37,5 @@
 19) https://archive.org--------------Website used to see the previous versions scrennshots of any website
 
 20) Octoparse-----------Paid Software for windows for web data extraction and scraping like images, html files and links
+
+21) Cewl-------------Linux tool to make wordlist by gathering all the unique words and emails present on the website
