@@ -41,3 +41,5 @@
 21) Octoparse-----------Paid Software for windows for web data extraction and scraping like images, html files and links
 
 22) Cewl-------------Linux tool to make wordlist by gathering all the unique words and emails present on the website
+
+23) Metagoofil--------Linux tool used to download the data like pdf, doc, xls, ppt from the website
