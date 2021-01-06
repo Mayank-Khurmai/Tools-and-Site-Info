@@ -45,3 +45,7 @@
 23) Metagoofil--------Linux tool used to download the data like pdf, doc, xls, ppt from the website
 
 24) Website Watcher--------Window Software used to track last two changes in website automatically and compares the differences and save screensshots to our local repository
+
+25) https://analytics.google.com--------Use this website to monitor the traffic of website
+
+26) https://www.alexa.com------------Use this website to monitor the traffic of website
