@@ -59,3 +59,5 @@
 30) SmartWhois----------Paid Window Software for website official information gathering
 
 31) https://www.ip2location.com------------Website to get the information from the IP Address
+
+32) https://www.dnsstuff.com-------------Paid Website for DNS footprinting
