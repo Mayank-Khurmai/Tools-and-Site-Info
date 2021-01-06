@@ -67,3 +67,5 @@
 34) Dnsrecon-------------Linux Command Line tool to perform Reverse DNS Lookup on target Host
 
 35) https://www.site24x7.com-------------Website to get complete informaton gathering of any website
+
+36) Traceroute-----------------Window & Linux command line tool to discover the path to the target host
