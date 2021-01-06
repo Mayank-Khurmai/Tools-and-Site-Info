@@ -69,3 +69,7 @@
 35) https://www.site24x7.com-------------Website to get complete informaton gathering of any website
 
 36) Traceroute-----------------Window & Linux command line tool to discover the path to the target host
+
+37) Path Analyzer Pro----------------Window & Linux Software for tracing the path to target host using graphical interface with the intermediate routers IP address
+
+38) Visual Route----------------Window Software for tracing the path to target host using graphical interface with the intermediate routers IP address
