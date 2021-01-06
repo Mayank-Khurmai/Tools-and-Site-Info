@@ -32,3 +32,6 @@
 
 17) wappalyzer-----------Website and Browser extension used to identify all the Technologies used in the website
 
+18) HTTrack--------------Software used to copy the website to our local repository
+
+19) https://archive.org--------------Website used to see the previous versions scrennshots of any website
