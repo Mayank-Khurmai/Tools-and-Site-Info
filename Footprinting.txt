@@ -32,10 +32,12 @@
 
 17) wappalyzer-----------Website and Browser extension used to identify all the Technologies used in the website
 
-18) HTTrack--------------Software used to copy the website to our local repository
+18) HTTrack--------------Window Software used to copy the website to our local repository
 
-19) https://archive.org--------------Website used to see the previous versions scrennshots of any website
+19) Web Data Extractor--------------Window Software used to copy the website to our local repository
 
-20) Octoparse-----------Paid Software for windows for web data extraction and scraping like images, html files and links
+20) https://archive.org--------------Website used to see the previous versions scrennshots of any website
 
-21) Cewl-------------Linux tool to make wordlist by gathering all the unique words and emails present on the website
+21) Octoparse-----------Paid Software for windows for web data extraction and scraping like images, html files and links
+
+22) Cewl-------------Linux tool to make wordlist by gathering all the unique words and emails present on the website
