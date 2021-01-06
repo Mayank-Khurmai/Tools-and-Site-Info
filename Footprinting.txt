@@ -49,7 +49,7 @@
 25) https://analytics.google.com--------Use this website to monitor the traffic of website
 
 26) https://www.alexa.com------------Use this website to monitor the traffic of website
-t
+
 27) Infoga------------Github Command line tool for email Information gathering using different search engines and also check whether email is breach or not
 
 28) Email Tracker Pro---------Window Software to track emails geo-location , IP address and email headers
@@ -62,4 +62,6 @@ t
 
 32) https://www.dnsstuff.com-------------Paid Website for DNS footprinting
 
-33) https://www.yougetsignal.com-----------Website for Reverse Domain Check, Whois Lookup and check all the websites hosted on the same server
+33) https://www.yougetsignal.com-----------Website for Reverse Domain Check, Whois Lookup and check all the websites hosted on the same Server(DNS Lookup)
+
+34) Dnsrecon-------------Linux Command Line tool to perform Reverse DNS Lookup on target Host
