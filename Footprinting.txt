@@ -77,3 +77,5 @@
 39) Maltego--------------Linux & Window Software to perform the all type of information gathering in graphical interface
 
 40) Recon-ng-------------Linux Command Line tool to independently extract the list of all sub-domains and their IP address
+
+41) FOCA-----------------Window GUI software available on github to extract the metadata and hidden files from the target website
