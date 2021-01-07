@@ -75,3 +75,5 @@
 38) Visual Route----------------Window Software for tracing the path to target host using graphical interface with the intermediate routers IP address
 
 39) Maltego--------------Linux & Window Software to perform the all type of information gathering in graphical interface
+
+40) Recon-ng-------------Linux Command Line tool to independently extract the list of all sub-domains and their IP address
