@@ -87,5 +87,3 @@
 44) Recon-Dog--------------Github Command Line tool to perfrom all the basic type of information gathering even it also check for the Honeypot
 
 45) Bill Cipher---------Github Command line tool to perform all type of IP/website information gathering and also try to fetch the Robot.txt file
-
-46) Th3inspector------------Github Command line tool to perform all type of information gathering like Mobile Number, Domain, IP, User-Agent, CLoudflare
