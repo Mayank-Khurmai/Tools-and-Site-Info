@@ -84,4 +84,4 @@
 
 43) https://osintframework.com-------------Website listing various OSINT tools arranged by category to perform all type of information gathering
 
-44) Recon-Dog--------------Github Command Line tool to perfrom all the basic type of information gathering
+44) Recon-Dog--------------Github Command Line tool to perfrom all the basic type of information gathering even it also check for the Honeypot
