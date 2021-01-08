@@ -9,3 +9,7 @@
 5) NetScanTools--------------Window Paid Software used for information gathering like Vulnerabilty Scanning, Port Scanning in local network as well as Internet users with their IP
 
 6) Angry IP Scanner--------------Window GUI Software for IP and Port Scanner and it also check for the MAC Address
+
+7) Fing---------------Android App use to find IP address, Device Vendor, MAC Address , ISP of all the devices connected to the same Wi-fi and also check for open ports of any IP/domain with traceroute
+
+8) Network Scanner--------------Android App use to find IP address, Device Vendor, MAC Address of all the devices connected to the same Wi-fi network and also check for open ports of any IP/domain
