@@ -1,1 +1,5 @@
-.
+1) Nmap--------------Linux Command Line tool used to find live hosts on a network, perform port scanning, ping sweeps, OS detection, and version detection
+
+2) Zenmap-----------Window GUI tool which is same as Nmap command line tool
+
+3) Hping------------Linux Command Line tool used to find live hosts, Firewall detection, Advanced Traceroute, Remote OS fingerprinting, Remote uptime guessing, Port scanning, ping sweeps, OS detection, Packet Crafting and version detection
