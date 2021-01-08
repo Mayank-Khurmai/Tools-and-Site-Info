@@ -16,4 +16,4 @@
 
 9) #hping3 -1 --rand-dest -I eth0 192.168.43.x---------Perform ICMP scan randomly on the entire subnet to check live hosts by sending ICMP echo request within the interface eth0[-I == --interface]
 
-10)
+10) hping3 -S --rand-source -p 3306 --flood 192.168.43.10----------------Send unlimited SYN packet from the random source to perform Dos Attack [-S == --syn]
