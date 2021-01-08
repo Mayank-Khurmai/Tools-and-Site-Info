@@ -11,3 +11,6 @@
 6) #hping3 -S -p 80 --tcp-timestamp 192.168.42.10--------Enable the TCP timestamp in packets as many Firewalls deny the packets without TCP timestamp and guess the target uptime [-S == --syn]
 
 7) #hping3 -8 0-140 -V 192.168.42.10----------------Scan the range of ports and -V is used to see live result [-8 == --scan] [-V == --verbose]
+
+8) #hping3 -F -P -U -p 80 192.168.42.10------------Send FIN, PUSH, RST Packet on port number, and if no-reply then port is open, if port is closed it will return RST response [-F == --fin] [-P == --push] [-U == --urg]
+
