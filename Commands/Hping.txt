@@ -1,1 +1,7 @@
-.
+1) #hping3 -1 192.168.42.10-------------------Sends ICMP ping request to check for the live hosts which is same as ping command [-1 == --icmp]
+
+2) #hping3 -A 192.168.42.10-------------------ACK scan to find live host and open port, we can perform this request when host did not respond to our ping request
+
+3) #hping3 -A 192.168.42.10 -p 80-------------------ACK scan to find live host and check for open port 80, we can perform this request when host did not respond to ping request 
+
+4) #hping3 -2 192.168.42.10 -p 80-----------------UDP packet will send and if no-reply then port is open, if port is closed then it came back with the ICMP error message [-2 == --udp]
