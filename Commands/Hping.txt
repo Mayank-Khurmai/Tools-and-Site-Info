@@ -14,3 +14,6 @@
 
 8) #hping3 -F -P -U -p 80 192.168.42.10------------Send FIN, PUSH, RST Packet on port number, and if no-reply then port is open, if port is closed it will return RST response [-F == --fin] [-P == --push] [-U == --urg]
 
+9) #hping3 -1 --rand-dest -I eth0 192.168.43.x---------Perform ICMP scan randomly on the entire subnet by sending ICMP echo request to all the hosts connected to the interface eth0[-I == --interface]
+
+10)
