@@ -1,3 +1,1 @@
-.
-.
-.
+1) nmap -sn 192.168.42.0/24------------------------This is ARP Scan using Nmap use to scan the Network Block to get IP Address, Device Name and MAC Address
