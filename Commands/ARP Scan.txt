@@ -1,0 +1,1 @@
+1) arp-scan -l -------------------Used for Host Discovery on same Network Interface with Device IP, Device MAC Address and Device Name
