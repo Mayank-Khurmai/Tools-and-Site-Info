@@ -3,3 +3,7 @@
 2) nmap -sn 192.168.42.0/24-------------------Only Perform the ARP scan to check for the live hosts and did not check for the open ports
 
 3) nmap -Pn 192.168.42.0/24------------------Directly checks only for the open ports and do not check for the live hosts
+
+4) nmap -sn -PU 192.168.42.0/24--------------Only Check for Live Hosts using the UDP Protocol as UDP have advanatages of detecting the system behind Firewall with strict TCP filtering
+
+5) nmap -PU 192.168.42/24----------------Perform UDP scan to check for the live hosts and open hosts
