@@ -1,9 +1,13 @@
-1) nmap 192.168.42.0/24------------------------First perform ARP Scan to find live hosts using Nmap to get IP Address, Device Name and MAC Address and then check for all the common open Ports
+1) nmap 192.168.42.0/24------------------------First perform ARP Ping Scan to find live hosts using Nmap to get IP Address, Device Name and MAC Address and then check for all the common open Ports in the entire network subnet
 
-2) nmap -sn 192.168.42.0/24-------------------Only Perform the ARP scan to check for the live hosts and did not check for the open ports
+2) nmap -sn 192.168.42.0/24-------------------Only Perform the ARP Ping scan to check for the live hosts and did not check for the open ports
 
-3) nmap -Pn 192.168.42.0/24------------------Directly checks only for the open ports and do not check for the live hosts
+3) nmap -Pn 192.168.42.0/24------------------Directly checks only for the open ports and do not check for the live hosts by pinging the host
 
 4) nmap -sn -PU 192.168.42.0/24--------------Only Check for Live Hosts using the UDP Protocol as UDP have advanatages of detecting the system behind Firewall with strict TCP filtering
 
 5) nmap -PU 192.168.42/24----------------Perform UDP scan to check for the live hosts and open hosts
+
+6) nmap -sn -PE 192.168.42.0/24-------------Perform ICMP ping scan to check for the live hosts in the entire subnet mask as nmap use ARP Ping Scan as default scan
+
+7) nmap -sn -PE 192.168.42.0-255-------------Perform ICMP ping scan to check for the live hosts in the IP range
