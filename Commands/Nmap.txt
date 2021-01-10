@@ -16,4 +16,6 @@
 
 9) nmap -sn -PM 192.168.42.0/24-------------Perform ICMP Address mask query to check the live host in case if ICMP TimeStamp packets are blocked by the Administrator\
 
-10) nmap -sn -PS 192.168.42.0/24-----------Perform TCP SYN Ping Scan to check for the live host, in this attacker send the TCP+SYN packet, and then server send ACK packet which mean host is live and then attacker send RST packet to terminate the connection, thus prevent from log creation
+10) nmap -sn -PS 192.168.42.0/24-----------Perform TCP SYN Ping Scan to check for the live host, in this attacker send the empty TCP+SYN packet, and then server send ACK packet which mean host is live and then attacker send RST packet to terminate the connection, thus prevent from log creation
+
+11) nmap -sn -PA 192.168.42.0/24-----------Perform TCP ACK Ping Scan, in this attacker send the empty ACK packet to server and server send the RST packet as there is no prior connection, so by getting reply , it means that system is live
