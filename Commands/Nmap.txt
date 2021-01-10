@@ -8,6 +8,6 @@
 
 5) nmap -PU 192.168.42/24----------------Perform UDP scan to check for the live hosts and open hosts
 
-6) nmap -sn -PE 192.168.42.0/24-------------Perform ICMP ping scan to check for the live hosts in the entire subnet mask as nmap use ARP Ping Scan as default scan
+6) nmap -sn -PE 192.168.42.0/24-------------Perform ICMP ping (Ping Sweep) Scan to check for the live hosts in the entire subnet mask as nmap use ARP Ping Scan as default scan
 
-7) nmap -sn -PE 192.168.42.0-255-------------Perform ICMP ping scan to check for the live hosts in the IP range
+7) nmap -sn -PE 192.168.42.0-255-------------Perform ICMP ping (Ping Sweep) Scan to check for the live hosts in the IP range
