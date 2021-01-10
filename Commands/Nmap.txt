@@ -11,3 +11,7 @@
 6) nmap -sn -PE 192.168.42.0/24-------------Perform ICMP ping (Ping Sweep) Scan to check for the live hosts in the entire subnet mask as nmap use ARP Ping Scan as default scan
 
 7) nmap -sn -PE 192.168.42.0-255-------------Perform ICMP ping (Ping Sweep) Scan to check for the live hosts in the IP range
+
+8) nmap -sn -PP 192.168.42.0/24-------------Perform ICMP TimeStamp ping scan to check for the live host, as many firewall blocks the packets without timestamp
+
+9) nmap -sn -PM 192.168.42.0/24-------------Perform ICMP Address mask query to check the live host in case if ICMP TimeStamp packets are blocked by the Administrator\
