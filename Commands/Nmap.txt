@@ -29,3 +29,5 @@
 15) nmap -sX 192.168.42.250-------This Xmas Scan is a type of Inverse TCP Scanning technique. In this attacker send the TCP packet with all the three FIN, URG, PUSH flags, if port is open then no response, if port is close then RST packet will come and this type of scan will not work for all type of OS. In Xmas, if no flag is set then it is known as NULL Scanning, if only FIN flag is set in Xmas Scan then it is known as FIN scan
 
 16) nmap -sM 192.168.42.250----------In TCP Maimon attack, attacker send the FIN+ACK packet, if the port is open then no response, if the port is close then RST packet will come
+
+17) nmap -sA 192.168.42.250----------ACK Flag Probe Scan will check for the Firewall presence. If all the ports are filtered then firewall is present and if un-filtered then firewall is not present
