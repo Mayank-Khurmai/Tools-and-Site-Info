@@ -26,4 +26,5 @@
 
 14) nmap -sS 192.168.42.250---------Perform Stealth Scan (Half Open/SYN Scan) to find the open ports. In this attacker send the SYN packets and server sends the SYN+ACK packets and then attacker sends the RST packets to terminate the connection instead of ACK packet to estabished connection and this type of scan helps to bypass Firewall and log generation
 
-15) nmap -sX 192.168.42.250-------This Xmas Scan is a type of Inverse TCP Scanning technique. In this attacker send the TCP packet with the FIN, URG, PUSH flags, if port is open then no response, if port is close then RST packet will come and this type of scan will not work for all type of OS
+15) nmap -sX 192.168.42.250-------This Xmas Scan is a type of Inverse TCP Scanning technique. In this attacker send the TCP packet with all the three FIN, URG, PUSH flags, if port is open then no response, if port is close then RST packet will come and this type of scan will not work for all type of OS. In Xmas, if no flag is set then it is known as NULL Scanning, if only FIN flag is set in Xmas Scan then it is known as FIN scan
+
