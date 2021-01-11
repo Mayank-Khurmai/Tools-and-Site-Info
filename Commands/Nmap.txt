@@ -31,3 +31,5 @@
 16) nmap -sM 192.168.42.250----------In TCP Maimon attack, attacker send the FIN+ACK packet, if the port is open then no response, if the port is close then RST packet will come
 
 17) nmap -sA 192.168.42.250----------ACK Flag Probe Scan will check for the Firewall presence. If all the ports are filtered then firewall is present and if un-filtered then firewall is not present
+
+18) nmap -sI <zombie_ip> <target_ip>------------IPID/IDLE Header Port Scan first take the IP Fragment ID of the Zombie System and then send the packet to victim system in name of Zombie IP ID and then server reply back to the Zombie and then attacker again check for the Increment im the IP ID to verify for the open ports in server
