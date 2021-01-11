@@ -24,4 +24,4 @@
 
 13) nmap -sT 192.168.42.250----------Perform TCP Connect (Full Open) Scan to find the open ports. In this scan 3-way TCP handshake take place and this type of scan can easily be detected and record in the log files
 
-14) nmap -sS 192.168.42.250---------Perform Stealth Scan (Half Open/SYN Scan) to find the open ports. In this attacker send the SYN packets and server sends the SYN+ACK packets and then attacker sends the RST packets to terminate the connection instead of ACK packet to estabished connection
+14) nmap -sS 192.168.42.250---------Perform Stealth Scan (Half Open/SYN Scan) to find the open ports. In this attacker send the SYN packets and server sends the SYN+ACK packets and then attacker sends the RST packets to terminate the connection instead of ACK packet to estabished connection and this type of scan helps to bypass Firewall and log generation
