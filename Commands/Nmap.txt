@@ -21,3 +21,5 @@
 11) nmap -sn -PA 192.168.42.0/24-----------Perform TCP ACK Ping Scan, in this attacker send the empty ACK packet to server and server send the RST packet as there is no prior connection, so by getting reply , it means that system is live
 
 12) nmap -sn -PO 192.168.42.0/24-----------Perform IP Protocol Ping Scan by sending ICMP, IGMP, TCP, UDP packets as default and we can configure Nmap to send othes types of protocol packets too in order of hoping that any type of protocol will get accepted and we get response to verify that the host is live
+
+13) nmap -sT -v 192.168.42.250----------Perform TCP Connect (Full Open) Scan to find the open ports, In this scan 3-way TCP handshake take place and this type of scan can easily be detected and record in the log files
