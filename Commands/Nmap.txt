@@ -6,7 +6,7 @@
 
 4) nmap -sn -PU 192.168.42.0/24--------------Only Check for Live Hosts using the UDP Protocol as UDP have advanatages of detecting the system behind Firewall with strict TCP filtering
 
-5) nmap -PU 192.168.42/24----------------Perform UDP scan to check for the live hosts and open hosts
+5) nmap -PU 192.168.42/24----------------Perform UDP scan to check for the live hosts and open ports
 
 6) nmap -sn -PE 192.168.42.0/24-------------Perform ICMP ping (Ping Sweep) Scan to check for the live hosts in the entire subnet mask as nmap use ARP Ping Scan as default scan
 
@@ -33,3 +33,5 @@
 17) nmap -sA 192.168.42.250----------ACK Flag Probe Scan will check for the Firewall presence. If all the ports are filtered then firewall is present and if un-filtered then firewall is not present
 
 18) nmap -sI <zombie_ip> <target_ip>------------IPID/IDLE Header Port Scan first take the IP Fragment ID of the Zombie System and then send the packet to victim system in name of Zombie IP ID and then server reply back to the Zombie and then attacker again check for the Increment im the IP ID to verify for the open ports in server
+
+19) nmap -sU 192.168.42.250------------UDP port scan to check for the Open/Close Port, if port is open then no reply, if port is close then ICMP error message will come back
