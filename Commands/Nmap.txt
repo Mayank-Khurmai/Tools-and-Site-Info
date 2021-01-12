@@ -43,3 +43,5 @@
 22) nmap -sZ 192.168.42.250---------In SCTP Cookie Echo Scan, attacker send the Cookie Echo Chunk to the target host, if no reply then port is open , if reply with Abort Chunk then port is closed
 
 23) nmap -sL 192.168.42.0/24---------List Scanning print all the IP names without actual pinging the host and Reverse DNS is performed to identify the host name
+
+24) nmap -6 mayankkhurmai.in-----------Use to Scan the IPv6 address of any website , server or host
