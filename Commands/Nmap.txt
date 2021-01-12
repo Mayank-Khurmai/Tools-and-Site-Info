@@ -37,3 +37,5 @@
 19) nmap -sU 192.168.42.250------------UDP port scan to check for the Open/Close Port, if port is open then no reply, if port is close then ICMP error message will come back
 
 20) nmap -sV -O 192.168.42.250---------Perform the Version Detection and OS Detection Scan
+
+21) nmap -sY 192.168.42.250---------In SCTP INIT Scan attacker send the INIT Chunks to the server and server reply with INIT+ACK Chunk means port is open whereas Abort Chunk reply implies that port is closed and no reply indicate that port is filtered
