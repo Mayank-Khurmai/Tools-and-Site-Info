@@ -49,3 +49,5 @@
 25) nmap -sV 192.168.42.250-----------Detect the Open Ports with their Survice running and Versions
 
 26) nmap --script smb-os-discovery.nse 192.168.42.250--------------OS Detection using the Nmap Script [--script == -sC]
+
+27) nmap -sS -T4 -A -f 192.168.42.250---------------SYN/FIN Scan using the IP Fragmentation to scan the target device beyond the Firewall/IDS
