@@ -14,7 +14,7 @@
 
 8) nmap -sn -PP 192.168.42.0/24-------------Perform ICMP TimeStamp ping scan to check for the live host, as many firewall blocks the packets without timestamp
 
-9) nmap -sn -PM 192.168.42.0/24-------------Perform ICMP Address mask query to check the live host in case if ICMP TimeStamp packets are blocked by the Administrator\
+9) nmap -sn -PM 192.168.42.0/24-------------Perform ICMP Address mask query to check the live host in case if ICMP TimeStamp packets are blocked by the Administrator
 
 10) nmap -sn -PS 192.168.42.0/24-----------Perform TCP SYN Ping Scan to check for the live host, in this attacker send the empty TCP+SYN packet, and then server send ACK packet which mean host is live and then attacker send RST packet to terminate the connection, thus prevent from log creation
 
@@ -47,3 +47,5 @@
 24) nmap -6 mayankkhurmai.in-----------Use to Scan the IPv6 address of any website , server or host
 
 25) nmap -sV 192.168.42.250-----------Detect the Open Ports with their Survice running and Versions
+
+26) nmap --script smb-os-discovery.nse 192.168.42.250--------------OS Detection using the Nmap Script [--script == -sC]
