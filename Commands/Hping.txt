@@ -17,3 +17,5 @@
 9) #hping3 -1 --rand-dest -I eth0 192.168.43.x---------Perform ICMP scan randomly on the entire subnet to check live hosts by sending ICMP echo request within the interface eth0[-I == --interface]
 
 10) hping3 -S --rand-source -p 3306 --flood 192.168.43.10----------------Send unlimited SYN packet from the random source to perform Dos Attack [-S == --syn]
+
+11) hping3 <target_ip> -a <spoof_id>---------IP address spoofing, in this attacker send the manipulated packet with the Spoof IP address to the target and also target server reply to the spoof IP address instead of attacker IP address
