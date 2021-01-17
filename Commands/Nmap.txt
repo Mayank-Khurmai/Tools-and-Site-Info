@@ -58,8 +58,12 @@
 
 30) nmap -D 192.168.43.1,192.168.43.2,192.168.43.3 192.168.43.250---------Decoy Scan using our own manual Decoy IP address list to scan the target host with manually specified IP address
 
-31) nmap 198.168.43.250 --data 0xdeadbeef--------------Crafting Packet by appending Binary String in Hexadecimal format in order to scan beyond IDS/Firewall
+31) nmap 192.168.43.250 --data 0xdeadbeef--------------Crafting Packet by appending Binary String in Hexadecimal format in order to scan beyond IDS/Firewall
 
-32) nmap 198.168.43.250 --data-string "mayank"--------------Crafting Packet by appending String in order to scan beyond IDS/Firewall
+32) nmap 192.168.43.250 --data-string "mayank"--------------Crafting Packet by appending String in order to scan beyond IDS/Firewall
 
-33) nmap 198.168.43.250 --data-string 5--------------Crafting Packet by appending String of random length 5 in order to scan beaond IDS/Firewall
+33) nmap 192.168.43.250 --data-string 5--------------Crafting Packet by appending String of random length 5 in order to scan beaond IDS/Firewall
+
+34) nmap --randomize-hosts 192.168.43.250-------------To scan the target host by using any randomize host
+
+35) nmap --badsum 192.168.43.250------------Attacker send the Bad TCP/UDP Checksum to the target to check for the bypass of IDS/Firewall
