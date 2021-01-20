@@ -1,1 +1,2 @@
 1) ssdp_msearch------------------Use as Information Discovery tool to check whether the Machine is Vulnerable to UPnP exploit ( UPnp = Universal Plug and Play)
+
