@@ -15,3 +15,11 @@
 8) Network Scanner--------------Android App use to find IP address, Device Vendor, MAC Address of all the devices connected to the same Wi-fi network and also check for open ports of any IP/domain
 
 9) Colasoft------------Window GUI Software for Packet Crafting and we can also create our custom network packet through it
+
+10) Proxy Switcher------------Window GUI based software and Google Chrome extension to hide our IP address while surfing the internet
+
+11) Cyber Ghost VPN------------Window GUI based software and Google Chrome extension to hide our IP address while surfing the internet
+
+12) Secure VPN----------------Andorid Mobile VPN
+
+13) Shadow Shocks--------------Android Mobile VPN
