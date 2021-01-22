@@ -32,4 +32,4 @@
 
 17) Solarwind Network Topology Mapper-----------Window GUI paid Network Mapping software built to automatically plot your network diagram upto level 2 & 3 of OSI Model
 
-18) OpManager----------Window and Linux GUI software for network mapping
+18) OpManager----------Window and Linux GUI software for network mapping diagram
