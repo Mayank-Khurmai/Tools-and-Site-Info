@@ -54,9 +54,9 @@
 
 28) nmap --source-port 80 192.168.42.250-----------To Bypass the Firewall/IDS by manipulating the source port number, because many IDS allow packet to receive only form common ports and block the other ports packets [-g == --source-port]
 
-29) nmap -D RND:10 192.168.43.250------------In this Decoy scan, it use the 10 Random IP Address including real IP address to scan the target host so that Victim cannnot clearify that which IP is the real attacker
+29) nmap -D RND:10 192.168.43.250------------In this Decoy scan, it use the 10 Random IP Address including real IP address to scan the target host so that victim cannnot clearify that which IP is the real attacker and trick the Firewall/IDS by bypassing it
 
-30) nmap -D 192.168.43.1,192.168.43.2,192.168.43.3 192.168.43.250---------Decoy Scan using our own manual Decoy IP address list to scan the target host with manually specified IP address
+30) nmap -D 192.168.43.1,192.168.43.2,192.168.43.3 192.168.43.250---------Decoy Scan using our own manual Decoy IP address list to scan the target host with manually specified IP address and trick the Firewall/IDS by bypassing it
 
 31) nmap 192.168.43.250 --data 0xdeadbeef--------------Crafting Packet by appending Binary String in Hexadecimal format in order to scan beyond IDS/Firewall
 
@@ -64,7 +64,6 @@
 
 33) nmap 192.168.43.250 --data-string 5--------------Crafting Packet by appending String of random length 5 in order to scan beaond IDS/Firewall
 
-34) nmap --randomize-hosts 192.168.43.250-------------To scan the target host by using any randomize host
+34) nmap --randomize-hosts 192.168.43.250-------------To scan the target host by using any randomize host and trick the Firewall/IDS by bypassing it
 
 35) nmap --badsum 192.168.43.250------------Attacker send the Bad TCP/UDP Checksum to the target to check for the bypass of IDS/Firewall
-
