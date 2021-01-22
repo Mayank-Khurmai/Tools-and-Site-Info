@@ -33,3 +33,7 @@
 17) Solarwind Network Topology Mapper-----------Window GUI paid Network Mapping software built to automatically plot your network diagram upto level 2 & 3 of OSI Model
 
 18) OpManager----------Window and Linux GUI software for network mapping diagram
+
+19) Network Analyzer-------------Android App for Wi-fi Scanner, Traceroute, whois, DNS and other tools
+
+20) PortDroid Network Analyzer-------------Android App for Port Scanning, Ping, Traceroute and Netwrok Discovery
