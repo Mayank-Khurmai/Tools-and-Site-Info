@@ -67,3 +67,4 @@
 34) nmap --randomize-hosts 192.168.43.250-------------To scan the target host by using any randomize host and trick the Firewall/IDS by bypassing it
 
 35) nmap --badsum 192.168.43.250------------Attacker send the Bad TCP/UDP Checksum to the target to check for the bypass of IDS/Firewall
+
