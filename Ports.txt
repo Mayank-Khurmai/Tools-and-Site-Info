@@ -1,1 +1,1 @@
-21  - FTP - File Transfer Prortool
+21  - FTP - File Transfer Protocol
