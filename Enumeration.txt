@@ -1,1 +1,3 @@
 1) Nbtstat-------------Window Command Line Utility tool to enumerate information such as NETBIOS over TCP/IP protocol statistics, NETBIOS Cache, Session, Status and Name
+
+2) NetNIOS Enumerator----------Window GUI Software to get remote NETBIOS name, username, domain name , MAC Address for a given range of IP Address
