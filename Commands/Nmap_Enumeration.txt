@@ -1,0 +1,1 @@
+1) nmap -sV -v --script nbstat.nse 192.168.42.0--------------Nmap Script use to enumerate information about the NETBIOS
