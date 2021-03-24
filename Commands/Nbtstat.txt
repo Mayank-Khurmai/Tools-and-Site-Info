@@ -1,0 +1,3 @@
+1) nbtstat--------------Display all Commands parameter and use
+
+2) nbtstat -n------------Display all names registered locally by NETBIOS
