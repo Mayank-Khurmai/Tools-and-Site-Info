@@ -1,5 +1,7 @@
 1) Nbtstat-------------Window Command Line Utility tool to enumerate information such as NETBIOS over TCP/IP protocol statistics, NETBIOS Cache, Session, Status and Name
 
-2) NetNIOS Enumerator----------Window GUI Software to get remote NETBIOS name, username, domain name , MAC Address for a given range of IP Address
+2 NetNIOS Enumerator----------Window GUI Software to get remote NETBIOS name, username, domain name , MAC Address for a given range of IP Address
 
 3) Angry IP Scanner--------------Window GUI Software for IP and Port Scanner and it also check for the MAC Address
+
+4) snmp-check 192.168.42.0-----------Linux Command line tool used to enumerate hardware, software, network, listening port, Interface, Services, Uptime, etc
