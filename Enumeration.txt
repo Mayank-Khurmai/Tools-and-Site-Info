@@ -1,0 +1,1 @@
+1) Nbtstat-------------Window Command Line Utility tool to enumerate information such as NETBIOS over TCP/IP protocol statistics, NETBIOS Cache, Session, Status and Name
