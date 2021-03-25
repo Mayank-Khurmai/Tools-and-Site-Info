@@ -7,3 +7,5 @@
 4) snmp-check 192.168.42.0-----------Linux Command line tool used to enumerate hardware, software, network, listening port, Interface, Services, Uptime, etc
 
 5) SoftPerfect Network Scanner------------Window GUI software used to ping computers, scan ports, discover shared folders and retrieve practically any information about network devices via WMI, SNMP, HTTP, SSH and PowerShell. It also scans for remote services, registry, files and performance counters
+
+6) Softerra LDAP tool-----------Use LDAP administrator tool to enumerate user details such as First Name, Last Name, E-mail ID, designation, location and number
