@@ -8,4 +8,4 @@ SNMP----------Simple Network Management Protocol
 
 LDAP---------Lightweight Directory Access Protocol
 
-CPU
+CPU--------Central Processing Unit
